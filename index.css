@@ -1,0 +1,20 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.container {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+}
+.image {
+    width: fit-content;
+}
+.imgae img {
+    width: fit-content;
+    object-fit: contain;
+}
