@@ -1,20 +1,50 @@
 body {
     background-color: hsl(30, 54%, 90%);
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+}
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.image {
+    
 }
 .container {
     width: 400px;
-    background-color: white;
+    height: 100%;
     padding: 20px;
+    background-color: white;
+    border-radius: 20px;
 }
-.image {
-    width: fit-content;
+.recipe-title {
+    text-align: left;
 }
-.imgae img {
-    width: fit-content;
-    object-fit: contain;
+.recipe-title h2{
+    text-align: left;
+}
+.recipe-title p{
+    font-size: 11px;
+}
+.preparation-time {
+    padding: 15px;
+    text-align: left;
+}
+.preparation-time h3 {
+    margin: 0; /* Remove default margin */
+    padding-left: 0; /* Remove padding if any */
+}
+
+.preparation-time ul {
+    list-style-position: inside; /* Ensure the bullets are inside the list */
+    padding-left: 0; /* Remove padding to align with the h3 */
+    margin: 0; /* Remove default margin */
+}
+
+.preparation-time li {
+    margin: 0; /* Remove default margin */
+    padding: 0 0 0 1em; /* Adjust left padding for alignment */
 }
